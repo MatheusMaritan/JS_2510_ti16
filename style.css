@@ -1,0 +1,58 @@
+:root{
+    --bkg: #000D80;
+    --celula: #DFE2FF;
+    --font-header: white;
+}
+
+main header{
+    background-color: var(--bkg);
+    text-align: center;
+    font-size: 30px;
+    color: var(--font-header);
+    padding-top: 20px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.container{
+    /* display: flex; */
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+section table{
+    width: 100%;
+    align-items: center;
+}
+
+table thead tr th{
+    color: var(--font-header);
+    background-color: var(--bkg);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: white 2px solid;
+
+}
+
+tbody tr td{
+    background-color: var(--celula);
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: white 2px solid;
+
+}
+
+.tabela-itens{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.tabela-nome{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+}

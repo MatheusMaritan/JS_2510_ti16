@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS TI16</title>
+  </head>
+  <body>
+    <main>
+      <header>Grade Nutritiva</header>
+
+      <section class="container">
+        <h1>Homosapiens Sapiens</h1>
+        <hr />
+
+        <table>
+          <thead>
+            <tr>
+              <th>NOME</th>
+              <th>Peso(kg)</th>
+              <th>Altura(m)</th>
+              <th>Gordura Corporal(%)</th>
+              <th>IMC</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tabela-nome">Carlos</td>
+              <td class="tabela-itens">69</td>
+              <td class="tabela-itens">1.76</td>
+              <td class="tabela-itens">21</td>
+              <td class="tabela-itens">0</td>
+            </tr>
+            <tr>
+              <td class="tabela-nome">Ana</td>
+              <td class="tabela-itens">76</td>
+              <td class="tabela-itens">1.70</td>
+              <td class="tabela-itens">13</td>
+              <td class="tabela-itens">0</td>
+            </tr>
+            <tr>
+              <td class="tabela-nome">Roberto</td>
+              <td class="tabela-itens">97</td>
+              <td class="tabela-itens">1.84</td>
+              <td class="tabela-itens">30</td>
+              <td class="tabela-itens">0</td>
+            </tr>
+            <tr>
+              <td class="tabela-nome">Luana</td>
+              <td class="tabela-itens">59</td>
+              <td class="tabela-itens">1.66</td>
+              <td class="tabela-itens">17</td>
+              <td class="tabela-itens">0</td>
+            </tr>
+            <tr>
+              <td class="tabela-nome">Jorge</td>
+              <td class="tabela-itens">64</td>
+              <td class="tabela-itens">1.70</td>
+              <td class="tabela-itens">20</td>
+              <td class="tabela-itens">0</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <script>
+      var Titulo = document.querySelector("header");
+      console.log(Titulo.textContent);
+      Titulo.textContent = "Tabelinha Boa";
+
+      var valorUm = document.querySelector("title");
+      console.log(valorUm.textContent);
+      valorUm.textContent = "Teste!";
+
+      var valorDois = document.querySelector("h1");
+      console.log(valorDois.textContent);
+      valorDois.textContent = "Seres Humaninhos!";
+    </script>
+  </body>
+</html>
