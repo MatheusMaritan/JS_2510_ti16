@@ -56,3 +56,18 @@ tbody tr td{
     font-size: 16px;
     font-weight: bold;
 }
+
+.conteudo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+
+}
+
+.peso{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.invalido{
+    background-color: rgb(255, 93, 93);
+    color: #ffffff;
+}
