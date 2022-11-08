@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br">
   <head>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="reset.css" />
@@ -29,7 +29,7 @@
           <tbody>
             <tr class="conteudo">
               <td class="tabela-nome">Carlos</td>
-              <td class="tabela-itens">0</td>
+              <td class="tabela-itens">67</td>
               <td class="tabela-itens">1.76</td>
               <td class="tabela-itens">21</td>
               <td class="tabela-itens">0</td>
@@ -65,8 +65,23 @@
           </tbody>
         </table>
       </section>
+
+      <section>
+        <form id="formulario">
+          <label for="Nome">Nome</label>
+          <input type="text" id="Nome" name="form_nome" />
+          <label for="Peso">Peso</label>
+          <input type="text" id="Peso" name="form_peso" />
+          <label for="Tamanho">Altura</label>
+          <input type="text" id="Altura" name="form_altura" />
+          <label for="Gordura">Gordura Corporal</label>
+          <input type="text" id="Gordura" name="form_gordura" />
+          <button id="botaoadd">Adicionar</button>
+        </form>
+      </section>
     </main>
 
-    <script src="console.js"></script>
+    <script src="./JS/imc.js"></script>
+    <script src="./JS/form.js"></script>
   </body>
 </html>
